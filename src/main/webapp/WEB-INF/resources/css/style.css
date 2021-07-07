@@ -1,0 +1,435 @@
+/* CSS for navigation */
+.sign-in-link {
+    color: #fff;
+    background-color: #a4ebf3;
+    line-height: 46px;
+    border-radius: 49px;
+    display: block;
+    padding: 0 54px;
+    font-weight: 600;
+    font-size: 1.130rem;
+    position: relative;
+    max-width: 15rem;
+    text-align: center;
+}
+.home-nav-li {
+    list-style: none;
+}
+
+.home-nav-content {
+    color: #276678;
+    font-weight: 600;
+    font-size: 1.130rem;
+}
+
+.home-nav-header {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2.130rem;
+}
+.sign-nav-li {
+    list-style: none;
+}
+
+.sign-nav-content {
+    color: #276678;
+    font-weight: 600;
+    font-size: 1.130rem;
+}
+
+.sign-nav-header {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2.130rem;
+}
+nav{
+    padding: 10px 0 10px 30px;
+
+}
+
+
+
+/* CSS for Home Page */
+.home-index-img-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home-img-content {
+    align-content: center;
+    color: #03535c;
+    font-weight: 600;
+    font-size: 1.130rem;
+    justify-content: center;
+  
+}
+
+
+/* .home-section-1 {
+    font-weight: 500;
+    font-size: 1.130rem;
+    padding: 10% 3% 5% 3%;
+} */
+
+.home-whatWehave-header {
+    font-size: 56px;
+    line-height: 74px;
+    font-weight: 700;
+}
+
+/* CSS for footer */
+.copy-right-block {
+    padding: 3% 0% 3% 0%;
+    font-size: 54px;
+    width: 100%;
+    border-top: 2px solid #c6d3db;
+    padding-bottom: 50px;
+}
+
+.my_footer {
+    background-color: #e0f5f7;
+    margin-top: 5%;
+}
+
+.row-home:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-part {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .footer-part {
+        width: 100%;
+    }
+
+}
+
+.a_tag_footer {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-svg {
+    margin: 2%;
+}
+
+.index-header {
+    margin: 0% 0% 3% 0%;
+    font-size: 34px;
+    border-bottom: 2px solid #dee7ec;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px
+}
+
+.index-card {
+    background-color: #E9E4F0;
+    margin: 30px;
+}
+
+.index-main {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.about-YogGuru-row{
+    justify-content: flex-end;
+}
+@media screen and (min-width:600px) {
+.about-yogGuru-header{
+ margin:20% 0;   
+}
+}
+
+
+/* CSS for login and registration page */
+.form-input input:focus,select:focus{
+   box-shadow: none !important;
+    background-color:white  !important;
+}
+
+.form-input textarea:focus{
+    box-shadow: none !important;
+     background-color:white  !important;
+}
+
+.login h1{
+    font-size: 40px;
+    margin:20px 0;
+    color: #276678;
+}
+.login label{
+    font-size: 20px;
+}
+.login input,.login select{
+    padding:15px 10px; 
+}
+.form_submit_button{
+    width: 100%;
+    margin: 1rem 0;
+    padding:15px 10px;            
+    font-size: 20px;
+    border-radius: 2rem;
+    color: #163b46;
+    font-weight: 600;
+    left: 50%;
+}
+
+.login input,.login select{
+    border:none;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(175, 173, 173);
+}
+
+.login textarea{
+    border:none;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(175, 173, 173);
+}
+
+.mainform{
+    width:100%;
+    max-width: 500px;
+    padding:15px;
+    margin:0 auto;
+}
+.alert {
+            font-weight: 300;
+            font-style: italic;
+            padding: 5px;
+            font-size: 12px;
+        }
+        .top-Heading{
+            padding: 2%;
+        }
+.form-input{
+    margin-bottom: 20px;
+}
+form .img-container{
+    margin-top: 5rem;
+    margin-left: 55%;
+    margin-right: 30%;
+    padding: 0%;
+    text-align: center;
+    border: none;
+    height: 200px; width:200px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow:hidden;
+    border:1px solid gray;
+}
+/* .row .img-container{
+    --bs-gutter-x:1.5rem;
+} */
+.imageLabel{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    transform:translateX(-50%);
+    cursor: pointer;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.img-container:hover .imageLabel{
+    color: #a4ebf3;
+}
+
+/* CSS for successful registration page */
+
+.register_success{
+    -moz-box-shadow: 0 0 8px 8px #fffec7;
+    -webkit-box-shadow: 0 0 8px 8px #fffec7;
+    box-shadow: 0 0 8px 8px #fffec7;
+     text-align: center; background-color:#ffffff ; width: 100%; max-width: 800px; padding: 15px; margin: 2rem auto; 
+}
+.register_success_btn{
+    color: rgb(0, 0, 0);
+    background-color: #a4ebf3;
+    line-height: 46px;
+    border-radius: 49px;
+    border-color: #a4ebf3;
+}
+
+.register_display{
+    font-family: 'Merriweather', serif;
+    
+}
+
+/* css for validation success page */
+.validation_success{
+    -moz-box-shadow: 0 0 8px 8px #97fc97;
+    -webkit-box-shadow: 0 0 8px 8px #97fc97;
+    box-shadow: 0 0 8px 8px #97fc97;
+     text-align: center; background-color:#ffffff ; width: 100%; max-width: 800px; padding: 15px; margin: 2rem auto; 
+}
+
+
+/* css for validation error page*/
+.validate_error_display{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+.validation_error{
+    -moz-box-shadow: 0 0 8px 8px #5f5f5f;
+    -webkit-box-shadow: 0 0 8px 8px #5f5f5f;
+    box-shadow: 0 0 8px 8px #5f5f5f;
+     text-align: center; background-color:#ffffff ; width: 100%; max-width: 800px; padding: 15px; margin: 2rem auto; 
+}
+
+
+/* CSS for profile page */
+.profile-image{
+    margin-top: 10rem;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 0%;
+    text-align: center;
+    border: none;
+    height: 200px;
+    width:200px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow:hidden;
+    border:1px solid rgb(87, 85, 85);
+
+}
+.profile-imageLabel{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    transform:translateX(-50%);
+    cursor: pointer;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.profile-image:hover .profile-imageLabel{
+    color: #a4ebf3;
+}
+
+.user-profile-information .address_info p,
+.user-profile-information .contact_info p,
+.user-profile-information .about_info p
+ {
+    font-size: 15px;
+    color: #858585;
+}
+
+  .user-profile-information h3,
+.user-profile-information h3,
+.user-profile-information h3
+ {
+    color: #394552;
+}
+
+
+.profile-button{
+    width:80%;
+    border-radius: 10px;
+}
+.profile-img-section{
+    text-align: center;
+    color:black;
+    background: linear-gradient(to right,#00e5ff,#e4fcff);
+
+}
+
+.profile-section{
+    border:2px solid #e2e2e2;
+}
+.profile-svg{
+    float:left;
+    margin-left: 5%;
+    
+}
+/* .edit-profile{
+    color: #555555;
+    cursor: pointer;
+    margin-top: 1rem;
+} */
+.profile-a_tag{
+    cursor:pointer;
+}
+
+/*Css for blogs page*/
+
+.blog-card{
+    border-radius: 20px 20px;
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.plus {
+    height: 24px;
+    width: 15px;
+    display: inline-block;
+    /* background-color: green; */
+    color: green;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .plus::before {
+    content: "+";
+  }
+
+  .addBlogButton a{
+    text-decoration: none;
+  }
+  
+  /*for search bar*/
+  
+  .search{
+  	border-top: none;
+  	border-left: none;
+  	border-right: none;
+  
+  }
+  
+  .search:focus{
+  	box-shadow: none;
+  }
+  
+  /* css for read blog page */
+
+  .readBlogHeader{
+     
+     background-size: cover;
+      height:50vh;
+      width:100%;
+      color:white;
+  }
+
+  .h-100{
+      height: 100%;
+      width:100%;
+  }
+
